@@ -8,7 +8,10 @@ In particular, this project aims to produce, and describe examples for the follo
 - use some data analytics - Watson or Machine learning in this context
 - create a serverless example with a COBOL z/OS backend
 - create content around a private cloud/zOS integration
+- possibly integrate blockchain based records with z/OS
 - establish a modular demonstrable app that can be always ready to share these examples with developers, clients, analysts
+
+Run a patient simulation to populate and trigger the system
 
 #### Summit Health Context
 
