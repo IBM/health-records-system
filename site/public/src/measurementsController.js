@@ -23,18 +23,18 @@ function retrieveMeasurementInformation() {
       weight.innerHTML = 'Weight: ' + measurementdata.weight + ' kg';
 
       var bmi = document.getElementById('bmi');
-var bmicalc =  Math.round(measurementdata.weight/(measurementdata.height*measurementdata.height))
+      var bmicalc = Math.round(measurementdata.weight / (measurementdata.height * measurementdata.height))
 
       bmi.innerHTML = 'BMI: ' + bmicalc + ' [' + measurementdata.bmirange + ']';
 
-      drawBloodPressureChart();
+      drawBloodPressureChart(measurementdata.sys, measurementdata.dia);
     }
   }
   http.send(null);
 }
 
 
-function drawBloodPressureChart() {
+function drawBloodPressureChart(sys, dia) {
 
   var c = document.getElementById("canvas");
 
@@ -109,5 +109,12 @@ function drawBloodPressureChart() {
 
     ctx.font = '14px sans-serif';
     ctx.fillText('Blood Pressure, last tested 01.08.2019', 20, 35)
+
+    // ctx.lineWidth = 3;
+    ctx.fillStyle = "#0F4C81";
+    ctx.beginPath();
+    ctx.arc(200, 200, 5, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fill();
   }
 }

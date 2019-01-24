@@ -48,8 +48,8 @@ app.get('/measurements', function(req, res) {
     weight: 62,
     bmi: 24.2,
     bmirange: 'normal',
-    sysbp: 124,
-    diabp: 83
+    sys: 124,
+    dia: 87
   }
 
   res.send(measurements);
