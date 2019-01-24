@@ -4,12 +4,12 @@ This project is a conceptual health records system, designed to showcase best in
 
 In particular, this project aims to produce, and describe examples for the following case studies:
 
-- create a Java integration example with a COBOL z/OS backend
-- use some data analytics - Watson or Machine learning in this context
-- create a serverless example with a COBOL z/OS backend
-- create content around a private cloud/zOS integration
-- possibly integrate blockchain based records with z/OS
-- establish a modular demonstrable app that can be always ready to share these examples with developers, clients, analysts
+- create a Java integration with a COBOL z/OS backend code pattern
+- use some data analytics - Watson or ML code pattern
+- create a serverless with a COBOL z/OS backend code pattern
+- create a private cloud/zOS integration code pattern
+- integrate blockchain based records with z/OS [ code pattern - Ash ]
+- establish a modular demonstrable app that can be always ready to share these examples with developers, clients, analysts [ client/analyst demo]
 
 Run a patient simulation to populate and trigger the system
 
